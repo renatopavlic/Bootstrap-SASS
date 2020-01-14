@@ -5,4 +5,14 @@ body {
   margin: 0;
   background-color: #bbbbf5;
 }
+
+nav img {
+  height: 60px;
+  width: 100px;
+}
+
+nav li {
+  text-transform: uppercase;
+  margin-left: 7rem;
+}
 /*# sourceMappingURL=style.css.map */
