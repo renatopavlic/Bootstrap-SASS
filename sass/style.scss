@@ -13,5 +13,23 @@ nav img {
 nav li {
     
     text-transform: uppercase;
-    margin-left: 7rem;
+    margin-left: 15rem;
+}
+
+.container-fluid {
+   background-image: url("https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   background-size: cover;
+   background-position: center;
+   height: 80vh;
+   text-align: center;
+   justify-content: center;
+   position: relative;
+   padding-top: 50vh;
+   
+    & h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: inline-block;
+        margin: 0 auto;     
+    }
 }
