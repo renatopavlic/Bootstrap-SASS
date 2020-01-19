@@ -16,7 +16,7 @@ nav li {
     margin-left: 15rem;
 }
 
-.container-fluid {
+.welcome {
    background-image: url("https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
    background-size: cover;
    background-position: center;
@@ -31,5 +31,23 @@ nav li {
         color: white;
         display: inline-block;
         margin: 0 auto;     
+    }
+}
+
+.card_section {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.hrow {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    
+    & h2 {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
     }
 }
